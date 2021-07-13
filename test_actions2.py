@@ -1,2 +1,2 @@
 def test_action_test():
-    assert True == True, "test1"
+    assert True == True, "test2"
