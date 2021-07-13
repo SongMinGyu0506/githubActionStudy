@@ -48,6 +48,6 @@ jobs:
         REPO: alsrb5606CdTest
         LYER_NAME: action
       run: |
-        docker build -t $LAYER_NAME  .
+        docker build -t $LAYER_NAME .
         docker tag $LAYER_NAME:latest $REPO/$LAYER_NAME:latest
         docker push $REPO/$LAYER_NAME:latest
